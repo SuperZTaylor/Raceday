@@ -1,0 +1,200 @@
+::root{--background-color:#ffffff;}
+
+body{background-image:url("images/racedayBgImg.jpg");
+  background-size:100%;
+  background-repeat:repeat;
+}
+
+input, select{border-radius:10px;
+  border:2px solid #0099ff;
+}
+
+select:hover{cursor:pointer;}
+
+.controls{width:90%;
+  height:100px;
+  margin:auto;
+  margin-bottom:30px;
+  margin-top:50px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  background-color:#ffffff;
+  border:2px solid #cccccc;
+  border-radius:10px;
+  box-shadow:0px 0px 5px #cccccc;
+}
+
+.logo{width:80px;
+  height:80px;
+  margin:auto;
+}
+
+.btnContainer{width:250px;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin:auto
+}
+
+.inputContainer{width:800px;
+  height:80px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  margin:auto;
+  margin-left:10px;
+}
+
+.inputHolder{width:100px;
+  height:80px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.ctrlInputs{width:50px;}
+
+#minute, #second, #milisecond{width:30%;
+  margin:auto;
+}
+
+#submit{width:150px;
+  height:20px;
+  border-radius:30px;
+  border:2px solid #000000;
+  font-size:16px;
+  margin:auto;
+  background-color:#0099ff;
+  color:white;
+  cursor:pointer;
+}
+#speedBtn{width:150px;
+  height:20px;
+  border-radius:30px;
+  border:2px solid #000000;
+  font-size:16px;
+  margin:auto;
+  background-color:#004A73;;
+  color:white;
+  cursor:pointer;
+}
+
+#deleteBtn{width:150px;
+  height:20px;
+  border-radius:30px;
+  border:2px solid #000000;
+  font-size:16px;
+  margin:auto;
+  background-color:#c70000;
+  color:white;
+  cursor:pointer;
+}
+
+#submit:hover, #speedBtn:hover, #deleteBtn:hover{opacity:90%}
+
+.container{width:800px;
+  height:auto;
+  min-height:calc(95% - 150px);
+  border:2px solid #cccccc;
+  border-radius:50px;
+  box-shadow:0px 0px 20px #cccccc;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:#ffffff;
+}
+
+.searchContainer{width:100%;
+  height:100px;
+  margin:auto;
+  margin-top:0px;
+  margin-bottom:0px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+
+#class{margin:auto;
+  margin-right:10px;
+}
+
+#list{margin:auto;
+  margin-right:50px;
+}
+
+#searchBar{margin:auto;
+  margin-right:0px;
+  margin-left:0px;
+}
+
+.search{margin:auto;
+  margin-left:5px;
+  background-color:#ffffff;
+  cursor:pointer;
+}
+
+.overallContainer{width:100%;
+  height:auto;
+  padding-bottom:60px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.stageContainer{width:100%;
+  height:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.stage10Container{padding-bottom:30px;}
+
+.description{width:100%;
+  text-align:center;
+}
+
+.description > span{margin:auto;
+  padding:20px;
+  padding-left:85px;
+}
+
+.containerHeader{font-size:30px;
+  width:100%;
+  text-align:center;
+  border-bottom:2px solid #000000;
+}
+
+.user{width:90%;
+  height:80px;
+  border-bottom:2px solid #cccccc;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  margin:auto;
+}
+
+.user > h1{width:250px;
+  margin:auto;
+  font-size:20px;
+  overflow:overlay;
+}
+
+ol{width:100%;
+  padding:0px;
+}
+
+li{width:100px;}
